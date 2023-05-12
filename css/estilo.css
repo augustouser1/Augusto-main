@@ -1,0 +1,93 @@
+h1 {color:rgb(59, 6, 248);font-size:34px;
+}
+h2,h3,h4,h5,h6{
+  color:rgba(0, 0, 0, 0.932);  
+}
+body ul li{
+   color:green;
+
+}
+p {
+   text-decoration:underline rgb(6, 84, 230) double 0.05rem;
+   text-indent:1rem
+}
+p.paragrafo{
+   text-transform:uppercase;
+   text-align:center;
+   letter-spacing: 1rem;
+   line-height:2rem;
+   word-spacing: 2rem;
+   color: rgb(231, 221, 221);
+   font:italic small-caps bold 2rem monospace;
+   text-shadow: 2px 2px 2.3px black;
+}
+a:link,a:visited,a:active{
+   text-decoration:none;
+   color:blueviolet
+}
+a:hover{
+   color:cadetblue;
+}
+footer{
+   clear:both; 
+   background: white url("../img/Logo_CEFET-MG.png") no-repeat left bottom;
+   height:1rem;
+}
+div{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   display: inline;
+   z-index: 2rem;
+   background-color: green;
+   color:white;
+   border: 0.2rem solid blue;
+   padding: 0.2rem;
+   font-size: 0.2rem;
+}
+h1#page1{
+   color:blueviolet;
+   border: 0.3rem dashed blue;
+}
+img{
+   width:20rem;
+}
+ul{
+  list-style-type: square;
+}
+h1.page2{
+   color:blue;
+   border: 1rem groove blue;
+   border-radius: 0.7rem;
+}
+ol{
+   list-style-type:upper-roman;
+   color:blue;
+}
+section img{
+   float:left
+}
+main.grid{
+ display:grid;
+ grid-template-columns:auto auto auto;
+ gap: 2rem
+}
+main.flexbox{
+   display: flex;
+   height: 100vh;
+   justify-content:center;
+   align-items: center;
+}
+main.flexbox article{
+   background-color: lightcoral;
+   margin: 1rem;
+   padding: 2rem;
+}
+body{
+ background-color:rgb(231, 4, 4);
+
+
+
+
+}
+
